@@ -11,7 +11,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>My Plants</label>
     <navType>Standard</navType>
-    <tabs>Species__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>My_Plants_UtilityBar</utilityBar>
 </CustomApplication>
