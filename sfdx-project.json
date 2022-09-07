@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "Plants3sep",
+  "name": "plants",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "55.0"
+  "sourceApiVersion": "53.0"
 }
