@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Light__c</fullName>
+    <fullName>Propagation__c</fullName>
     <externalId>false</externalId>
-    <label>Light</label>
+    <label>Propagation</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
@@ -11,37 +11,36 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Full Sun</fullName>
+                <fullName>Seeds</fullName>
                 <default>false</default>
-                <label>Full Sun</label>
+                <label>Seeds</label>
             </value>
             <value>
-                <fullName>Half-shade</fullName>
+                <fullName>Division</fullName>
                 <default>false</default>
-                <label>Half-shade</label>
+                <label>Division</label>
             </value>
             <value>
-                <fullName>Shade</fullName>
+                <fullName>Cuttings</fullName>
                 <default>false</default>
-                <label>Shade</label>
+                <label>Cuttings</label>
             </value>
             <value>
-                <fullName>Indirec</fullName>
+                <fullName>Layering</fullName>
                 <default>false</default>
-                <label>Indirec</label>
+                <label>Layering</label>
             </value>
             <value>
-                <fullName>Direct</fullName>
+                <fullName>Shoot</fullName>
                 <default>false</default>
-                <label>Direct</label>
+                <label>Shoot</label>
             </value>
             <value>
-                <fullName>Indirect</fullName>
+                <fullName>Grafting</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
-                <label>Indirect</label>
+                <label>Grafting</label>
             </value>
         </valueSetDefinition>
     </valueSet>
-    <visibleLines>4</visibleLines>
+    <visibleLines>6</visibleLines>
 </CustomField>

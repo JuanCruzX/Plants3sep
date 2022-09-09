@@ -35,6 +35,11 @@
                 <default>false</default>
                 <label>Africa</label>
             </value>
+            <value>
+                <fullName>Central America</fullName>
+                <default>false</default>
+                <label>Central America</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <visibleLines>5</visibleLines>
