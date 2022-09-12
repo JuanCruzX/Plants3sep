@@ -1,7 +1,12 @@
 <template>
-  <template for:each={species} for:item="spec">
-    <div key={spec.Id}>
-      <c-species-tile specie={spec}></c-species-tile>
-    </div>
-  </template>  
+  <template if:true={species.data}>
+    <template for:each={species.data} for:item="spec">
+      <div key={spec.Name}>
+        <c-species-tile 
+          specie={spec} 
+          class="slds-col slds-var-m-around_small"
+        ></c-species-tile>
+      </div>
+    </template>  
+  </template>
 </template>
