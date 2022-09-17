@@ -6,17 +6,17 @@
          onclick={navigateToRecordViewPage}
       ></lightning-button>
       <!-- body start -->
-      <p class="slds-var-p-horizontal_small">
+      <p class="slds-var-p-horizontal_small description">
          {specie.Description__c}
       </p>
       <div class="slds-align_absolute-center">
          <img
-            class="slds-var-m-around_medium"
+            class="specie slds-var-m-around_medium"
             src={specie.Image_URL__c}
             alt={specie.Name}
          />
       </div>
-      <div class="slds-var-p-horizontal_small slds-align_absolute-center">         
+      <p class="slds-var-p-horizontal_small slds-align_absolute-center">
          <template if:true={isOutdoors}>
             <!-- Mostrar icono del sol -->
             <lightning-icon 
@@ -33,7 +33,7 @@
                title="Indoors"
             ></lightning-icon>
          </template>
-      </div>
+      </p>
 
       <!-- <p class="slds-var-p-horizontal_small">{specie.Location__c}</p> -->
       <!-- body end -->

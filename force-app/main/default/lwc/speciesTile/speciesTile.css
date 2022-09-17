@@ -1,11 +1,12 @@
 :host {
   width: 325px;
   display: block;
+  box-shadow: 2px 2px 2px black;
 }
 p.description {
   min-height: 60px;
 }
-img {
+img.specie {
   height: 200px;
   max-width: 250px;
   max-height: 250px;
